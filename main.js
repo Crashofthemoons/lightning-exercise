@@ -2,10 +2,9 @@
 // Challenge: Create a new repository on Github and push the code your wrote up to Github.
 
 const lastName = "Lawson"
-// let ln = str.length
 
 
-if (lastName >= 7) {
+if (lastName.length >= 7) {
     console.log("I cant pronounce this last name")
 } else {
     console.log(lastName)
