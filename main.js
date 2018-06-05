@@ -9,3 +9,15 @@ if (lastName.length >= 7) {
 } else {
     console.log(lastName)
 }
+
+// 1. Write a function that takes two arguments. This function should return the concatenated value of the two arguments.
+
+// 2. Call the function with your first name and last name as the two arguments.
+
+// 3. Console log the return value.
+
+const fullName = (firs, last) => {
+    return `${first} ${last}`
+}
+
+console.log(fullName('Jenn', 'Lawson'))
